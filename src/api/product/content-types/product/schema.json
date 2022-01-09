@@ -4,16 +4,14 @@
   "info": {
     "singularName": "product",
     "pluralName": "products",
-    "displayName": "product"
+    "displayName": "Product",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "code": {
-      "type": "uid"
-    },
     "name": {
       "type": "string"
     },
@@ -22,6 +20,27 @@
     },
     "imageUrl": {
       "type": "string"
+    },
+    "AccountID": {
+      "type": "integer"
+    },
+    "CategoryID": {
+      "type": "integer"
+    },
+    "Price": {
+      "type": "float"
+    },
+    "Sold": {
+      "type": "integer"
+    },
+    "Quantity": {
+      "type": "integer"
+    },
+    "Desciption": {
+      "type": "text"
+    },
+    "RateNumber": {
+      "type": "integer"
     }
   }
 }

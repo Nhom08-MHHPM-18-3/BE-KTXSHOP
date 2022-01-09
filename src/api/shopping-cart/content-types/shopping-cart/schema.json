@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "orders",
+  "collectionName": "shopping_carts",
   "info": {
-    "singularName": "order",
-    "pluralName": "orders",
-    "displayName": "Order",
-    "description": ""
+    "singularName": "shopping-cart",
+    "pluralName": "shopping-carts",
+    "displayName": "ShoppingCart"
   },
   "options": {
     "draftAndPublish": true
@@ -14,15 +13,6 @@
   "attributes": {
     "AccountID": {
       "type": "integer"
-    },
-    "PurchaseDate": {
-      "type": "date"
-    },
-    "Status": {
-      "type": "string"
-    },
-    "CodeDiscount": {
-      "type": "string"
     },
     "ProductID": {
       "type": "integer"

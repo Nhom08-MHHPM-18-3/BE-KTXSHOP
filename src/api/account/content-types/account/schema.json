@@ -4,7 +4,8 @@
   "info": {
     "singularName": "account",
     "pluralName": "accounts",
-    "displayName": "account"
+    "displayName": "Account",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

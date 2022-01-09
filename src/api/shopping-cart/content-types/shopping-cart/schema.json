@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shopping_carts",
+  "info": {
+    "singularName": "shopping-cart",
+    "pluralName": "shopping-carts",
+    "displayName": "ShoppingCart"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AccountID": {
+      "type": "integer"
+    },
+    "ProductID": {
+      "type": "integer"
+    },
+    "Quantity": {
+      "type": "integer"
+    },
+    "UnitCost": {
+      "type": "float"
+    },
+    "Subtotal": {
+      "type": "float"
+    }
+  }
+}

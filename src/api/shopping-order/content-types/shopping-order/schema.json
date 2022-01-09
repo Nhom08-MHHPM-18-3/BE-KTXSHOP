@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shopping_orders",
+  "info": {
+    "singularName": "shopping-order",
+    "pluralName": "shopping-orders",
+    "displayName": "ShoppingOrder"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "EstimateDeliveryTime": {
+      "type": "date"
+    },
+    "ActualDeliveryTime": {
+      "type": "date"
+    },
+    "PhoneNumber": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "Status": {
+      "type": "text"
+    }
+  }
+}

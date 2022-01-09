@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AccountID": {
+      "type": "integer"
+    },
+    "PurchaseDate": {
+      "type": "date"
+    },
+    "Status": {
+      "type": "text"
+    },
+    "CodeDiscount": {
+      "type": "string"
+    },
+    "ProductID": {
+      "type": "integer"
+    },
+    "Quantity": {
+      "type": "integer"
+    },
+    "UnitCost": {
+      "type": "float"
+    },
+    "Subtotal": {
+      "type": "float"
+    }
+  }
+}

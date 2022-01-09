@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accounts",
+  "info": {
+    "singularName": "account",
+    "pluralName": "accounts",
+    "displayName": "Account",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "UserName": {
+      "type": "string"
+    },
+    "Password": {
+      "type": "password"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "PhoneNumber": {
+      "type": "string"
+    },
+    "FullName": {
+      "type": "text"
+    },
+    "DateOfBirth": {
+      "type": "date"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "Authorization": {
+      "type": "string"
+    }
+  }
+}

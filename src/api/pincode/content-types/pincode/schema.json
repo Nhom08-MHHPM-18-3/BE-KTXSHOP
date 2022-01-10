@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pincodes",
+  "info": {
+    "singularName": "pincode",
+    "pluralName": "pincodes",
+    "displayName": "PinCode",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AccountID": {
+      "type": "integer"
+    },
+    "PinCode": {
+      "type": "string"
+    }
+  }
+}

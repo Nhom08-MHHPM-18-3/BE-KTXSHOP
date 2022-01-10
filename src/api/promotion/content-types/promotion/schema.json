@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promotions",
+  "info": {
+    "singularName": "promotion",
+    "pluralName": "promotions",
+    "displayName": "Promotion",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ExpirationDate": {
+      "type": "date"
+    },
+    "Quantity": {
+      "type": "integer"
+    },
+    "Code": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mode_of_payments",
+  "info": {
+    "singularName": "mode-of-payment",
+    "pluralName": "mode-of-payments",
+    "displayName": "ModeOfPayment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Type": {
+      "type": "string"
+    }
+  }
+}

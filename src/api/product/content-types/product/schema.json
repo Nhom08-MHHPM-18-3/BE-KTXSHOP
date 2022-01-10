@@ -24,23 +24,20 @@
     "AccountID": {
       "type": "integer"
     },
-    "CategoryID": {
-      "type": "integer"
-    },
-    "Price": {
-      "type": "float"
-    },
     "Sold": {
       "type": "integer"
     },
     "Quantity": {
       "type": "integer"
     },
-    "Desciption": {
-      "type": "text"
-    },
     "RateNumber": {
       "type": "integer"
+    },
+    "category": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
     }
   }
 }

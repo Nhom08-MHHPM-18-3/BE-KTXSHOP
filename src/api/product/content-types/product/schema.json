@@ -38,16 +38,6 @@
     },
     "description": {
       "type": "string"
-    },
-    "Image": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
     }
   }
 }

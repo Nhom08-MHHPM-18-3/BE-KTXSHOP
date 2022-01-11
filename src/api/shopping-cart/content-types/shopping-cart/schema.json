@@ -4,7 +4,8 @@
   "info": {
     "singularName": "shopping-cart",
     "pluralName": "shopping-carts",
-    "displayName": "ShoppingCart"
+    "displayName": "ShoppingCart",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

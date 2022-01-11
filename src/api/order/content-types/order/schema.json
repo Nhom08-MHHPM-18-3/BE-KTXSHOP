@@ -4,7 +4,8 @@
   "info": {
     "singularName": "order",
     "pluralName": "orders",
-    "displayName": "Order"
+    "displayName": "Order",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,9 +14,6 @@
   "attributes": {
     "AccountID": {
       "type": "integer"
-    },
-    "PurchaseDate": {
-      "type": "date"
     },
     "Status": {
       "type": "text"
@@ -34,6 +32,9 @@
     },
     "Subtotal": {
       "type": "float"
+    },
+    "PurchaseDate": {
+      "type": "string"
     }
   }
 }

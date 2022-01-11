@@ -15,9 +15,6 @@
     "AccountID": {
       "type": "integer"
     },
-    "PurchaseDate": {
-      "type": "date"
-    },
     "Status": {
       "type": "string"
     },
@@ -35,6 +32,9 @@
     },
     "Subtotal": {
       "type": "float"
+    },
+    "PurchaseDate": {
+      "type": "string"
     }
   }
 }

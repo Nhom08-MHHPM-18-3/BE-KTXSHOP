@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "ProductName": {
       "type": "string"
     },
-    "price": {
+    "Price": {
       "type": "float"
     },
     "imageUrl": {
@@ -38,6 +38,16 @@
     },
     "description": {
       "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
     }
   }
 }
